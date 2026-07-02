@@ -16,4 +16,4 @@ spec:
             # Reference to a Service name, also specified in the Rollout spec.strategy.canary.stableService field
             name: frontend-service
             port:
-              number: 80
+              number: 8080
