@@ -10,7 +10,7 @@ spec:
       stableService: frontend-service
       trafficRouting:
         nginx:
-          stableIngress: rollouts-frontend-stable
+          stableIngress: rollouts-demo-stable
       steps:
       - setWeight: 5
       - pause: {}
