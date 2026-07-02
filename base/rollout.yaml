@@ -6,8 +6,8 @@ spec:
   replicas: 1
   strategy:
     canary:
-      canaryService: frontend-service
-      stableService: frontend-service
+      canaryService: frontend-service-canary
+      stableService: frontend-service-stable
       trafficRouting:
         nginx:
           stableIngress: rollouts-frontend-stable
