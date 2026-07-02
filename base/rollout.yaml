@@ -3,7 +3,6 @@ kind: Rollout
 metadata:
   name: frontend-rollout
 spec:
-  replicas: 2
   strategy:
     canary:
       canaryService: frontend-service-canary
