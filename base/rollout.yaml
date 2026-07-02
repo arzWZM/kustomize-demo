@@ -17,11 +17,11 @@ spec:
   revisionHistoryLimit: 2
   selector:
     matchLabels:
-      app: frontend-deployment
+      app: frontend-rollout
   template:
     metadata:
       labels:
-        app: frontend-deployment
+        app: frontend-rollout
     spec:
       containers:
         - name: app
