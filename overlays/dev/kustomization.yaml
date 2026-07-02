@@ -5,3 +5,4 @@ bases:
 patchesStrategicMerge:
 - rollout.yaml
 - service-nodeport.yaml
+- hpa-rollout.yaml
