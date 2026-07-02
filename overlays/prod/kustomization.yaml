@@ -4,5 +4,5 @@ bases:
 - ../../base
 patchesStrategicMerge:
 - rollout-replicas.yaml
-- hpa.yaml
+- hpa-rollout.yaml
 - service-loadbalancer.yaml
