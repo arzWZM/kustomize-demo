@@ -3,7 +3,7 @@ kind: HorizontalPodAutoscaler
 metadata:
   name: frontend-rollout-hpa
   labels:
-    app: ‎frontend-rollout
+    app: frontend-rollout
 spec:      # The min and max number of pods the HPA can scale
   minReplicas: 3
   maxReplicas: 10
