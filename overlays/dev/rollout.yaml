@@ -2,8 +2,9 @@ apiVersion: argoproj.io/v1alpha1
 kind: Rollout
 metadata:
   name: frontend-rollout
-  spec:
-    template:
-      spec:  
-        containers:
-        image: argoproj/rollouts-demo:green
+spec:
+  template:
+    spec:
+      containers:
+        - name: app
+          image: argoproj/rollouts-demo:green
