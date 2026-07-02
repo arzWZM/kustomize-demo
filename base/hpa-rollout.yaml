@@ -6,7 +6,7 @@ spec:
   scaleTargetRef:
     apiVersion: argoproj.io/v1alpha1
     kind: Rollout
-    name: ‎frontend-rollout
+    name: frontend-rollout
   minReplicas: 1
   maxReplicas: 5
   metrics:
