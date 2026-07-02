@@ -3,6 +3,6 @@ kind: Kustomization
 bases:
 - ../../base
 patchesStrategicMerge:
-- rollout-replica.yaml
+- rollout-replicas.yaml
 - hpa.yaml
 - service-loadbalancer.yaml
