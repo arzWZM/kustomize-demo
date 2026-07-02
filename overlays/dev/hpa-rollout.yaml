@@ -5,7 +5,7 @@ metadata:
   labels:
     app: frontend-rollout
 spec:      # The min and max number of pods the HPA can scale
-  minReplicas: 3
+  minReplicas: 1
   maxReplicas: 10
   scaleTargetRef:       # The HPA targets the Rollout object for scaling.
     apiVersion: argoproj.io/v1alpha1
