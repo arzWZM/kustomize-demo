@@ -3,6 +3,7 @@ kind: HorizontalPodAutoscaler
 metadata:
   name: frontend-rollout-hpa
 spec:
+  replicas: 2
   minReplicas: 3
   maxReplicas: 5
   metrics:
