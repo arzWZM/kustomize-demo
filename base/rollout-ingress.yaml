@@ -9,7 +9,7 @@ spec:
   - host: rollouts-frontend-stable.local
     http:
       paths:
-      - path: /test/
+      - path: /
         pathType: Prefix
         backend:
           service:
