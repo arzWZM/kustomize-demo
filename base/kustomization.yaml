@@ -4,5 +4,4 @@ kind: Kustomization
 resources:
   - rollout.yaml
   - service.yaml
-  - hpa.yaml
   - rollout-ingress.yaml
