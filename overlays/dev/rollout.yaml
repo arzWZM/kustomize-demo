@@ -3,4 +3,4 @@ kind: Rollout
 metadata:
   name: frontend-rollout
 spec:
-  image: argoproj/rollouts-demo:blue
+  image: argoproj/rollouts-demo:green
