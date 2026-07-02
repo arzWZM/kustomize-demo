@@ -8,3 +8,25 @@ spec:
     port: 8080
   selector:
     app: frontend-rollout
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: frontend-service-canary
+spec:
+  ports:
+  - name: http
+    port: 8080
+  selector:
+    app: frontend-rollout
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: frontend-service-stable
+spec:
+  ports:
+  - name: http
+    port: 8080
+  selector:
+    app: frontend-rollout
